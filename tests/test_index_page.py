@@ -5,6 +5,6 @@ import time
 
 class TestFooter:
 
-    def test_user_should_be_able_to_open_popup_select_subscription_plan(self, page):
+    def test_the_main_search_button_must_have_the_text_google_search(self, page):
         pages.index_page.open_index_page(page)
         time.sleep(10)
